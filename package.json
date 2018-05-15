@@ -1,0 +1,36 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "lint:es": "eslint --ignore-path .gitignore \"**/*.{js,jsx}\"",
+    "lint:style": "stylelint \"src/**/*.scss\"",
+    "lint": "npm run lint:es && npm run lint:style",
+    "format":
+      "prettier --ignore-path .gitignore --write \"**/*.{js,jsx,json,scss,md}\""
+  },
+  "dependencies": {
+    "gatsby": "^2.0.0-alpha.32",
+    "gatsby-plugin-sass": "^2.0.0-alpha.11",
+    "modern-normalize": "^0.4.0",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-helmet": "^5.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-react": "^7.8.2",
+    "prettier": "^1.12.1",
+    "stylelint": "^9.2.0",
+    "stylelint-config-idiomatic-order": "^5.0.0",
+    "stylelint-config-prettier": "^3.2.0",
+    "stylelint-config-recommended-scss": "^3.2.0",
+    "stylelint-scss": "^3.1.0"
+  }
+}
