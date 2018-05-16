@@ -1,6 +1,7 @@
 {
   "editor.formatOnSave": true,
   "eslint.autoFixOnSave": true,
+  "prettier.disableLanguages": ["javascript", "javascriptreact"],
   "javascript.validate.enable": false,
   "scss.validate": false
 }
