@@ -4097,6 +4097,12 @@ gatsby-link@^1.6.38-9:
     prop-types "^15.5.8"
     ric "^1.3.0"
 
+gatsby-plugin-react-helmet@next:
+  version "2.0.12-5"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-react-helmet/-/gatsby-plugin-react-helmet-2.0.12-5.tgz#fa8805289f904fe397092e211e2c5c0d4374853f"
+  dependencies:
+    "@babel/runtime" "7.0.0-beta.47"
+
 gatsby-plugin-sass@next:
   version "2.0.0-alpha.13"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-sass/-/gatsby-plugin-sass-2.0.0-alpha.13.tgz#5e6c7567b18f5b7fdbe949cc986ee10204c3b4f1"
