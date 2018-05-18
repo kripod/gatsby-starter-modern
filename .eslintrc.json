@@ -1,6 +1,9 @@
 {
   "root": true,
   "extends": ["airbnb", "plugin:prettier/recommended"],
+  "env": {
+    "browser": true
+  },
   "settings": {
     "import/core-modules": ["gatsby"]
   },
