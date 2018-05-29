@@ -6,8 +6,7 @@
     "lint:es": "eslint --ignore-path .gitignore \"**/*.{js,jsx}\"",
     "lint:style": "stylelint \"src/**/*.scss\"",
     "lint": "npm run lint:es && npm run lint:style",
-    "format":
-      "prettier --ignore-path .gitignore --write \"**/*.{js,jsx,json,scss,md}\""
+    "format": "prettier --ignore-path .gitignore --write \"**/*.{js,jsx,json,scss,md}\""
   },
   "dependencies": {
     "gatsby": "next",

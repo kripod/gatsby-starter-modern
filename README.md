@@ -4,9 +4,9 @@ A modern Gatsby starter with strict linting and auto-formatting rules.
 
 ## 🚀 Getting started
 
-* Clone this project and install all the required dependencies _(e.g. with `gatsby new gatsby-example-site https://github.com/kripod/gatsby-starter-modern` after making sure that Gatsby CLI is installed globally with `npm install --global gatsby-cli`)_
-* Start a development server by `yarn develop` or `npm run develop`
-  * _Other scripts like `build`, [`lint`][script-lint] and [`format`][script-format] are also available_
+- Clone this project and install all the required dependencies _(e.g. with `gatsby new gatsby-example-site https://github.com/kripod/gatsby-starter-modern` after making sure that Gatsby CLI is installed globally with `npm install --global gatsby-cli`)_
+- Start a development server by `yarn develop` or `npm run develop`
+  - _Other scripts like `build`, [`lint`][script-lint] and [`format`][script-format] are also available_
 
 ### Deploy
 
@@ -37,8 +37,8 @@ The default style of browsers is normalized by [modern-normalize][].
 
 [Linters][lint] are tools that analyze source code to flag programming errors, bugs, stylistic errors, and suspicious constructs.
 
-* JavaScript files are linted by [ESLint][], enforcing the [Airbnb JavaScript Style Guide][] through an overridable set of rules provided by [eslint-config-airbnb-base][].
-* SCSS files are linted by [stylelint][], adhering to the rules specified in [stylelint-config-recommended-scss][] and the [declaration order conventions of idiomatic-css][] _(enforced by [stylelint-config-idiomatic-order][])_.
+- JavaScript files are linted by [ESLint][], enforcing the [Airbnb JavaScript Style Guide][] through an overridable set of rules provided by [eslint-config-airbnb-base][].
+- SCSS files are linted by [stylelint][], adhering to the rules specified in [stylelint-config-recommended-scss][] and the [declaration order conventions of idiomatic-css][] _(enforced by [stylelint-config-idiomatic-order][])_.
 
 [lint]: https://en.wikipedia.org/wiki/Lint_(software)
 [eslint]: https://eslint.org/
