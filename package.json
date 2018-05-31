@@ -13,6 +13,7 @@
     "gatsby-plugin-react-helmet": "next",
     "gatsby-plugin-sass": "next",
     "modern-normalize": "^0.4.0",
+    "node-sass": "^4.9.0",
     "prop-types": "^15.6.1",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
