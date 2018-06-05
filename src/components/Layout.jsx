@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import Helmet from 'react-helmet';
 import Header from './Header';
+import styles from './Layout.module.scss';
 
 const Layout = ({ children }) => (
   <React.Fragment>
@@ -30,7 +31,7 @@ const Layout = ({ children }) => (
 
     <Header title="Gatsby" />
 
-    <main>{children}</main>
+    <main className={styles.main}>{children}</main>
   </React.Fragment>
 );
 

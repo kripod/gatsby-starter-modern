@@ -1,0 +1,39 @@
+@import '../utils/breakpoints';
+
+html {
+  // TODO: Remove the rule below if https://github.com/sindresorhus/modern-normalize/pull/28 gets merged and released
+  // Prevent adjustments of font size after orientation changes in iOS
+  // Source: https://github.com/necolas/normalize.css/blob/7369f566898b8cefc2649b6a66e112857de4c46f/normalize.css#L13
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  line-height: 1.5;
+  overflow-x: hidden;
+
+  @include media-breakpoint-up(md) {
+    font-size: 1.25em;
+  }
+
+  @include media-breakpoint-up(xl) {
+    font-size: 1.5em;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: normal;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+
+  .main &:hover {
+    text-decoration: underline;
+  }
+}
