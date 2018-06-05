@@ -1,0 +1,10 @@
+$fonts: (
+  display: (font-family: system-ui),
+  body: (font-family: system-ui)
+);
+
+@mixin font($type) {
+  @each $key, $value in map-get($fonts, $type) {
+    #{$key}: #{$value};
+  }
+}

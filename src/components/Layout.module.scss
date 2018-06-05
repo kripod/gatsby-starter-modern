@@ -1,5 +1,7 @@
 @import '../utils/breakpoints';
 @import '../utils/colors';
+@import '../utils/themes';
+@import '../utils/typography';
 
 html {
   // TODO: Remove the rule below if https://github.com/sindresorhus/modern-normalize/pull/28 gets merged and released
@@ -9,6 +11,9 @@ html {
 }
 
 body {
+  @include theme(light);
+  @include font(body);
+
   line-height: 1.5;
   overflow-x: hidden;
 
@@ -27,6 +32,8 @@ h3,
 h4,
 h5,
 h6 {
+  @include font(display);
+
   line-height: normal;
 }
 
