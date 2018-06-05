@@ -1,0 +1,9 @@
+@import './list';
+
+@mixin gap($list) {
+  margin: multiply($list, -0.5);
+
+  > * {
+    padding: multiply($list, 0.5);
+  }
+}
