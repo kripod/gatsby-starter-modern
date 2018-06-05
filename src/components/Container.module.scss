@@ -1,5 +1,14 @@
+@import '../utils/breakpoints';
+
 .root {
-  max-width: 960px;
   padding: 0 1rem;
   margin: 0 auto;
+
+  @include media-breakpoint-up(md) {
+    margin: 0 8vw;
+  }
+
+  @include media-breakpoint-up(xl) {
+    margin: 0 16vw;
+  }
 }
