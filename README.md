@@ -15,9 +15,9 @@ A modern Gatsby starter with strict linting and auto-formatting rules.
 [script-lint]: #linting
 [script-format]: #automatic-code-formatting
 
-## 💅 Enhanced style management
+## 💅 Style management
 
-[SCSS][sass], a superset of CSS can be used for styling components. The usage of Sass-specific extensions is optional, as every valid CSS stylesheet is a valid SCSS file with the same meaning.
+[SCSS][sass], a superset of CSS is used for styling components. The usage of Sass-specific extensions is optional, as every valid CSS stylesheet is a valid SCSS file with the same meaning.
 
 The default style of browsers is normalized by [modern-normalize][].
 
