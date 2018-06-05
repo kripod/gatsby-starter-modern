@@ -1,4 +1,5 @@
 @import '../utils/breakpoints';
+@import '../utils/colors';
 
 html {
   // TODO: Remove the rule below if https://github.com/sindresorhus/modern-normalize/pull/28 gets merged and released
@@ -33,7 +34,16 @@ a {
   color: inherit;
   text-decoration: none;
 
-  .main &:hover {
-    text-decoration: underline;
+  .main & {
+    color: $color-link;
+
+    &:not(:hover) {
+      text-decoration: underline;
+    }
   }
+}
+
+.headerBrandTitle {
+  display: inline-block;
+  margin: 0;
 }

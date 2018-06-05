@@ -29,7 +29,7 @@ const Layout = ({ children }) => (
       )}
     />
 
-    <Header title="Gatsby" />
+    <Header brand={<h1 className={styles.headerBrandTitle}>Gatsby</h1>} />
 
     <main className={styles.main}>{children}</main>
   </React.Fragment>

@@ -1,13 +1,7 @@
+@import '../utils/colors';
+
 .root {
-  background: rebeccapurple;
-}
-
-.title {
   padding: 1em 0;
-  margin: 0;
-}
-
-.titleLink {
+  background: $color-primary;
   color: white;
-  text-decoration: none;
 }

@@ -4,20 +4,21 @@ import React from 'react';
 import Container from './Container';
 import styles from './Header.module.scss';
 
-const Header = ({ title, ...props }) => (
-  <header className={styles.root} {...props}>
+const Header = ({ brand, className, ...props }) => (
+  <header className={`${styles.root} ${className}`} {...props}>
     <Container>
-      <h1 className={styles.title}>
-        <Link to="/" className={styles.titleLink}>
-          {title}
-        </Link>
-      </h1>
+      <Link to="/">{brand}</Link>
     </Container>
   </header>
 );
 
 Header.propTypes = {
-  title: PropTypes.string.isRequired,
+  brand: PropTypes.node.isRequired,
+  className: PropTypes.string,
+};
+
+Header.defaultProps = {
+  className: '',
 };
 
 export default Header;
