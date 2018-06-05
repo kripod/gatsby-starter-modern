@@ -4,9 +4,6 @@
   "env": {
     "browser": true
   },
-  "settings": {
-    "import/core-modules": ["gatsby"]
-  },
   "globals": {
     "graphql": true
   },
