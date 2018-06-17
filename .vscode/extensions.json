@@ -3,6 +3,7 @@
     "dbaeumer.vscode-eslint",
     "EditorConfig.EditorConfig",
     "esbenp.prettier-vscode",
+    "prisma.vscode-graphql",
     "shinnn.stylelint"
   ]
 }
