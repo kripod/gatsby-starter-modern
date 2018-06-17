@@ -1,7 +1,12 @@
 {
+  // Enable automatic file formatting and fixing
   "editor.formatOnSave": true,
   "eslint.autoFixOnSave": true,
+
+  // Using Prettier for JS is unnecessary as ESLint already handles formatting
   "prettier.disableLanguages": ["javascript", "javascriptreact"],
+
+  // Disable some default validators as there are better substitutes available
   "javascript.validate.enable": false,
   "scss.validate": false
 }
