@@ -15,23 +15,23 @@
     "modern-normalize": "^0.4.0",
     "node-sass": "^4.9.0",
     "prop-types": "^15.6.1",
-    "react": "^16.3.2",
-    "react-dom": "^16.3.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
     "react-helmet": "^5.2.0"
   },
   "devDependencies": {
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-config-prettier": "^2.9.0",
-    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-import": "^2.12.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-prettier": "^2.6.0",
-    "eslint-plugin-react": "^7.8.2",
-    "prettier": "^1.13.3",
-    "stylelint": "^9.2.0",
+    "eslint-plugin-react": "^7.9.1",
+    "prettier": "^1.13.5",
+    "stylelint": "^9.3.0",
     "stylelint-config-idiomatic-order": "^5.0.0",
     "stylelint-config-prettier": "^3.2.0",
     "stylelint-config-recommended-scss": "^3.2.0",
-    "stylelint-scss": "^3.1.0"
+    "stylelint-scss": "^3.1.3"
   }
 }
