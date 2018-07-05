@@ -3,13 +3,6 @@
 @import '../utils/themes';
 @import '../utils/typography';
 
-html {
-  // TODO: Remove the rule below if https://github.com/sindresorhus/modern-normalize/pull/28 gets merged and released
-  // Prevent adjustments of font size after orientation changes in iOS
-  // Source: https://github.com/necolas/normalize.css/blob/7369f566898b8cefc2649b6a66e112857de4c46f/normalize.css#L13
-  -webkit-text-size-adjust: 100%;
-}
-
 body {
   @include theme(light);
   @include font(body);
