@@ -6,7 +6,8 @@
   // Using Prettier for JS is unnecessary as ESLint already handles formatting
   "prettier.disableLanguages": ["javascript", "javascriptreact"],
 
-  // Disable default validators for which there are better substitutes available
+  // Disable built-in tools for which there are better alternatives available
+  "javascript.format.enable": false,
   "javascript.validate.enable": false,
   "scss.validate": false
 }
