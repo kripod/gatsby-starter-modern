@@ -17,12 +17,11 @@ A modern Gatsby starter with strict linting and auto-formatting rules.
 
 ## 💅 Style management
 
-[SCSS][sass], a superset of CSS is used for styling components. The usage of Sass-specific extensions is optional, as every valid CSS stylesheet is a valid SCSS file with the same meaning.
+[Rebass][], a React UI component library & design system, is used for styling components. Based on [styled-components][] and [styled-system][], it provides a delightful way for managing styles.
 
-The default style of browsers is normalized by [modern-normalize][].
-
-[sass]: https://sass-lang.com/
-[modern-normalize]: https://github.com/sindresorhus/modern-normalize
+[rebass]: https://jxnblk.com/rebass/
+[styled-components]: https://www.styled-components.com/
+[styled-system]: https://jxnblk.com/styled-system/
 
 ## ✨ Superior developer experience
 
@@ -37,14 +36,12 @@ The default style of browsers is normalized by [modern-normalize][].
 
 [Linters][lint] are tools that analyze source code to flag programming errors, bugs, stylistic errors, and suspicious constructs.
 
-- JavaScript files are linted by [ESLint][], enforcing the [Airbnb JavaScript Style Guide][] through an overridable set of rules provided by [eslint-config-airbnb-base][].
-- SCSS files are linted by [stylelint][], adhering to the rules specified in [stylelint-config-recommended-scss][] and the [declaration order conventions of idiomatic-css][] _(enforced by [stylelint-config-idiomatic-order][])_.
+- JavaScript is linted by [ESLint][], enforcing the [Airbnb JavaScript Style Guide][] through an overridable set of rules provided by [eslint-config-airbnb-base][].
+- Styles are linted by [stylelint][], adhering to the rules specified in [stylelint-config-recommended][].
 
 [lint]: https://en.wikipedia.org/wiki/Lint_(software)
 [eslint]: https://eslint.org/
 [airbnb javascript style guide]: https://github.com/airbnb/javascript
 [eslint-config-airbnb-base]: https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base
 [stylelint]: https://stylelint.io/
-[stylelint-config-recommended-scss]: https://github.com/kristerkari/stylelint-config-recommended-scss
-[declaration order conventions of idiomatic-css]: https://github.com/necolas/idiomatic-css#declaration-order
-[stylelint-config-idiomatic-order]: https://github.com/ream88/stylelint-config-idiomatic-order
+[stylelint-config-recommended]: https://github.com/stylelint/stylelint-config-recommended

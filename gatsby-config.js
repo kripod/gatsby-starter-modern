@@ -3,5 +3,5 @@ module.exports = {
     title: 'Gatsby Modern Starter',
     language: 'en',
   },
-  plugins: ['gatsby-plugin-react-helmet', 'gatsby-plugin-sass'],
+  plugins: ['gatsby-plugin-react-helmet', 'gatsby-plugin-styled-components'],
 };

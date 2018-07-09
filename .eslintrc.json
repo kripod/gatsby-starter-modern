@@ -3,5 +3,8 @@
   "extends": ["airbnb", "plugin:prettier/recommended", "prettier/react"],
   "env": {
     "browser": true
+  },
+  "rules": {
+    "no-unused-expressions": ["error", { "allowTaggedTemplates": true }]
   }
 }

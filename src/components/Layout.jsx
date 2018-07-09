@@ -1,13 +1,23 @@
-import 'modern-normalize/modern-normalize.css';
 import { graphql, StaticQuery } from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
 import Helmet from 'react-helmet';
+import { Heading, Provider } from 'rebass';
+import { injectGlobal } from 'styled-components';
 import Header from './Header';
-import styles from './Layout.module.scss';
+
+injectGlobal`
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+  }
+`;
 
 const Layout = ({ children }) => (
-  <React.Fragment>
+  <Provider>
     <StaticQuery
       query={graphql`
         query LayoutQuery {
@@ -29,10 +39,10 @@ const Layout = ({ children }) => (
       )}
     />
 
-    <Header brand={<h1 className={styles.headerBrandTitle}>Gatsby</h1>} />
+    <Header brand={<Heading is="h1">Gatsby</Heading>} />
 
-    <main className={styles.main}>{children}</main>
-  </React.Fragment>
+    <main>{children}</main>
+  </Provider>
 );
 
 Layout.propTypes = {

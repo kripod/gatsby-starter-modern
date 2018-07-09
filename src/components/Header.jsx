@@ -1,14 +1,17 @@
-import { Link } from 'gatsby';
+import { Link as GatsbyLink } from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
-import Container from './Container';
-import styles from './Header.module.scss';
+import { Box, Container, NavLink } from 'rebass';
 
-const Header = ({ brand, className, ...props }) => (
-  <header className={`${styles.root} ${className}`} {...props}>
-    <Container>
-      <Link to="/">{brand}</Link>
-    </Container>
+const Header = ({ brand, ...props }) => (
+  <header {...props}>
+    <Box color="white" bg="rebeccapurple">
+      <Container>
+        <NavLink is={GatsbyLink} to="/" px={0} my={3}>
+          {brand}
+        </NavLink>
+      </Container>
+    </Box>
   </header>
 );
 

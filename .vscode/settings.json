@@ -8,6 +8,5 @@
 
   // Disable built-in tools for which there are better alternatives available
   "javascript.format.enable": false,
-  "javascript.validate.enable": false,
-  "scss.validate": false
+  "javascript.validate.enable": false
 }

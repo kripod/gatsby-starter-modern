@@ -4,20 +4,21 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "lint:es": "eslint --ignore-path .gitignore \"**/*.{js,jsx}\"",
-    "lint:style": "stylelint \"src/**/*.scss\"",
+    "lint:style": "stylelint \"src/**/*.{js,jsx}\"",
     "lint": "npm run lint:es && npm run lint:style",
-    "format": "prettier --ignore-path .gitignore --write \"**/*.{js,jsx,json,scss,md}\""
+    "format": "prettier --ignore-path .gitignore --write \"**/*.{js,jsx,json,md}\""
   },
   "dependencies": {
+    "babel-plugin-styled-components": "^1.5.1",
     "gatsby": "^2.0.0-beta.9",
     "gatsby-plugin-react-helmet": "^3.0.0-beta.2",
-    "gatsby-plugin-sass": "^2.0.0-beta.2",
-    "modern-normalize": "^0.5.0",
-    "node-sass": "^4.9.0",
+    "gatsby-plugin-styled-components": "^3.0.0-beta.2",
     "prop-types": "^15.6.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "rebass": "^2.0.1",
+    "styled-components": "^3.3.3"
   },
   "devDependencies": {
     "eslint": "^4.19.1",
@@ -29,9 +30,9 @@
     "eslint-plugin-react": "^7.9.1",
     "prettier": "^1.13.5",
     "stylelint": "^9.3.0",
-    "stylelint-config-idiomatic-order": "^5.0.0",
     "stylelint-config-prettier": "^3.3.0",
-    "stylelint-config-recommended-scss": "^3.2.0",
-    "stylelint-scss": "^3.1.3"
+    "stylelint-config-recommended": "^2.1.0",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-processor-styled-components": "^1.3.1"
   }
 }
