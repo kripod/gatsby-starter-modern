@@ -6,9 +6,7 @@ import Layout from '../components/Layout';
 const SecondPage = () => (
   <Layout>
     <Container>
-      <Heading is="h1" my={3}>
-        Hi from the second page
-      </Heading>
+      <Heading my={3}>Hi from the second page</Heading>
       <Text is="p">Welcome to page 2</Text>
       <Text is="p" my={3}>
         <Link is={GatsbyLink} to="/">

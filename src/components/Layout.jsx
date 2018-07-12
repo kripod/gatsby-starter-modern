@@ -39,7 +39,7 @@ const Layout = ({ children }) => (
       )}
     />
 
-    <Header brand={<Heading is="h1">Gatsby</Heading>} />
+    <Header brand={<Heading>Gatsby</Heading>} />
 
     <main>{children}</main>
   </Provider>

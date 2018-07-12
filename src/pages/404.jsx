@@ -10,9 +10,7 @@ const NotFoundPage = () => (
         <title>Page not found</title>
       </Helmet>
 
-      <Heading is="h1" my={3}>
-        Page not found
-      </Heading>
+      <Heading my={3}>Page not found</Heading>
       <Text is="p" my={3}>
         The requested page is unavailable.
       </Text>

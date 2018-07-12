@@ -6,9 +6,7 @@ import Layout from '../components/Layout';
 const IndexPage = () => (
   <Layout>
     <Container>
-      <Heading is="h1" my={3}>
-        Hi people
-      </Heading>
+      <Heading my={3}>Hi people</Heading>
       <Text is="p">Welcome to your new Gatsby site.</Text>
       <Text is="p">Now go build something great.</Text>
       <Text is="p" my={3}>
