@@ -2,7 +2,7 @@ import { graphql, StaticQuery } from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
 import Helmet from 'react-helmet';
-import { Heading, Provider } from 'rebass';
+import { Heading, Provider as RebassProvider } from 'rebass';
 import { injectGlobal } from 'styled-components';
 import Header from './Header';
 
@@ -17,7 +17,7 @@ injectGlobal`
 `;
 
 const Layout = ({ children }) => (
-  <Provider>
+  <RebassProvider>
     <StaticQuery
       query={graphql`
         query LayoutQuery {
