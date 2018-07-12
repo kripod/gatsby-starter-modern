@@ -4,24 +4,17 @@ import React from 'react';
 import { Box, Container, NavLink } from 'rebass';
 
 const Header = ({ brand, ...props }) => (
-  <header {...props}>
-    <Box color="white" bg="rebeccapurple">
-      <Container>
-        <NavLink is={GatsbyLink} to="/" px={0} my={3}>
-          {brand}
-        </NavLink>
-      </Container>
-    </Box>
-  </header>
+  <Box is="header" color="white" bg="rebeccapurple" {...props}>
+    <Container>
+      <NavLink is={GatsbyLink} to="/" px={0} my={3}>
+        {brand}
+      </NavLink>
+    </Container>
+  </Box>
 );
 
 Header.propTypes = {
   brand: PropTypes.node.isRequired,
-  className: PropTypes.string,
-};
-
-Header.defaultProps = {
-  className: '',
 };
 
 export default Header;
