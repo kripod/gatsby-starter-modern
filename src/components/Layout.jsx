@@ -2,8 +2,9 @@ import { graphql, StaticQuery } from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
 import Helmet from 'react-helmet';
-import { Heading, Provider as RebassProvider } from 'rebass';
-import { injectGlobal } from 'styled-components';
+import { Box, Flex, Heading, Provider as RebassProvider, Text } from 'rebass';
+import { css, injectGlobal } from 'styled-components';
+import Footer from './Footer';
 import Header from './Header';
 
 injectGlobal`
@@ -17,7 +18,13 @@ injectGlobal`
 `;
 
 const Layout = ({ children }) => (
-  <RebassProvider>
+  <RebassProvider
+    is={Flex}
+    flexDirection="column"
+    css={css`
+      min-height: 100vh;
+    `}
+  >
     <StaticQuery
       query={graphql`
         query LayoutQuery {
@@ -41,8 +48,14 @@ const Layout = ({ children }) => (
 
     <Header brand={<Heading>Gatsby</Heading>} />
 
-    <main>{children}</main>
-  </Provider>
+    <Box is="main" flex={1}>
+      {children}
+    </Box>
+
+    <Footer>
+      <Text align="center">Sticky footer</Text>
+    </Footer>
+  </RebassProvider>
 );
 
 Layout.propTypes = {
