@@ -36,12 +36,12 @@ const Layout = ({ children }) => (
           }
         }
       `}
-      render={staticData => (
+      render={data => (
         <Helmet
-          titleTemplate={`%s | ${staticData.site.siteMetadata.title}`}
-          defaultTitle={staticData.site.siteMetadata.title}
+          titleTemplate={`%s | ${data.site.siteMetadata.title}`}
+          defaultTitle={data.site.siteMetadata.title}
         >
-          <html lang={staticData.site.siteMetadata.language} />
+          <html lang={data.site.siteMetadata.language} />
         </Helmet>
       )}
     />
