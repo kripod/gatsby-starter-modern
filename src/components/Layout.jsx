@@ -27,7 +27,7 @@ const Layout = ({ children }) => (
   >
     <StaticQuery
       query={graphql`
-        query LayoutQuery {
+        {
           site {
             siteMetadata {
               title
