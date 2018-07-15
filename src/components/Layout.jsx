@@ -8,10 +8,6 @@ import Footer from './Footer';
 import Header from './Header';
 
 injectGlobal`
-  * {
-    box-sizing: border-box;
-  }
-
   body {
     margin: 0;
     text-size-adjust: 100%;
