@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import Helmet from 'react-helmet';
 import { Box, Flex, Heading, Provider as RebassProvider, Text } from 'rebass';
-import { css, injectGlobal } from 'styled-components';
+import { injectGlobal } from 'styled-components';
 import Footer from './Footer';
 import Header from './Header';
 
@@ -19,13 +19,7 @@ injectGlobal`
 `;
 
 const Layout = ({ children }) => (
-  <RebassProvider
-    is={Flex}
-    flexDirection="column"
-    css={css`
-      min-height: 100vh;
-    `}
-  >
+  <RebassProvider is={Flex} flexDirection="column" css={{ minHeight: '100vh' }}>
     <StaticQuery
       query={graphql`
         {
