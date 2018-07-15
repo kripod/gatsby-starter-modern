@@ -14,6 +14,7 @@ injectGlobal`
 
   body {
     margin: 0;
+    text-size-adjust: 100%;
   }
 `;
 
