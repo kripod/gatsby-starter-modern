@@ -6,7 +6,7 @@
     "lint:es": "eslint --ignore-path .gitignore \"**/*.{js,jsx}\"",
     "lint:style": "stylelint \"src/**/*.{js,jsx}\"",
     "lint": "npm run lint:es && npm run lint:style",
-    "format": "prettier --ignore-path .gitignore --write \"**/*.{js,jsx,json,md,yaml}\""
+    "format": "prettier --ignore-path .gitignore --write \"**/*.{js,jsx,json,md,yml}\""
   },
   "dependencies": {
     "babel-plugin-styled-components": "^1.5.1",
