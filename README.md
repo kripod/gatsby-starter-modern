@@ -6,7 +6,7 @@ A modern Gatsby starter with strict linting and auto-formatting rules.
 
 - Clone this project and install all the required dependencies _(e.g. with `gatsby new gatsby-example-site https://github.com/kripod/gatsby-starter-modern` after making sure that Gatsby CLI is installed globally with `npm install --global gatsby-cli`)_
 - Start a development server with `yarn develop` or `npm run develop`
-  - _Other scripts like `build`, [`lint`](#linting) and [`format`](#automatic-code-formatting) are also available_
+  - _Other scripts like `build`, [`format`](#automatic-code-formatting) and [`lint`](#linting) are also available_
 
 ### Deploy
 
