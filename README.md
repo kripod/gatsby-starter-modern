@@ -20,7 +20,7 @@ A modern Gatsby starter with strict linting and auto-formatting rules.
 [styled-components]: https://www.styled-components.com/
 [styled-system]: https://jxnblk.com/styled-system/
 
-## ✨ Superior developer experience
+## ✨ Developer experience
 
 ### Automatic code formatting
 
