@@ -3,10 +3,10 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "lint:es": "eslint --ignore-path .gitignore \"**/*.{js,jsx}\"",
-    "lint:style": "stylelint \"src/**/*.{js,jsx}\"",
+    "format": "prettier --ignore-path .gitignore --write \"**/*.{js,jsx,json,md,yml}\"",
     "lint": "npm run lint:es && npm run lint:style",
-    "format": "prettier --ignore-path .gitignore --write \"**/*.{js,jsx,json,md,yml}\""
+    "lint:es": "eslint --ignore-path .gitignore \"**/*.{js,jsx}\"",
+    "lint:style": "stylelint \"src/**/*.{js,jsx}\""
   },
   "dependencies": {
     "babel-plugin-styled-components": "^1.5.1",
