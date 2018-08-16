@@ -4174,9 +4174,9 @@ gatsby-plugin-react-helmet@^3.0.0-beta.4:
   dependencies:
     "@babel/runtime" "7.0.0-beta.52"
 
-gatsby-plugin-styled-components@^3.0.0-beta.3:
-  version "3.0.0-beta.3"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-styled-components/-/gatsby-plugin-styled-components-3.0.0-beta.3.tgz#da93c5feb4c87cac39733de6366e0eb15b35feca"
+gatsby-plugin-styled-components@^3.0.0-beta.4:
+  version "3.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-styled-components/-/gatsby-plugin-styled-components-3.0.0-beta.4.tgz#18198dcae1e0793f01814c53278b8b928b97b172"
   dependencies:
     "@babel/runtime" "7.0.0-beta.52"
 
