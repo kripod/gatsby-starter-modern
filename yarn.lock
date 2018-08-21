@@ -4183,17 +4183,17 @@ gatsby-plugin-styled-components@^3.0.0-beta.4:
   dependencies:
     "@babel/runtime" "7.0.0-beta.52"
 
-gatsby-react-router-scroll@^2.0.0-beta.8:
-  version "2.0.0-beta.8"
-  resolved "https://registry.yarnpkg.com/gatsby-react-router-scroll/-/gatsby-react-router-scroll-2.0.0-beta.8.tgz#6b18a280214d561e8d2ef0e0e82c600091a96cfd"
+gatsby-react-router-scroll@^2.0.0-beta.9:
+  version "2.0.0-beta.9"
+  resolved "https://registry.yarnpkg.com/gatsby-react-router-scroll/-/gatsby-react-router-scroll-2.0.0-beta.9.tgz#33aa8d8ba639e89b823bb83ed395325670749cce"
   dependencies:
     "@babel/runtime" "7.0.0-beta.52"
     scroll-behavior "^0.9.9"
     warning "^3.0.0"
 
-gatsby@^2.0.0-beta.112:
-  version "2.0.0-beta.112"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.0.0-beta.112.tgz#159dc14107bef67378aad13957a60bafb2a31645"
+gatsby@^2.0.0-beta.113:
+  version "2.0.0-beta.113"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.0.0-beta.113.tgz#64623af93704085244a28de102099f2faab9bf9a"
   dependencies:
     "@babel/code-frame" "7.0.0-beta.52"
     "@babel/core" "7.0.0-beta.52"
@@ -4250,7 +4250,7 @@ gatsby@^2.0.0-beta.112:
     gatsby-cli "^2.0.0-beta.14"
     gatsby-link "^2.0.0-beta.22"
     gatsby-plugin-page-creator "^2.0.0-beta.5"
-    gatsby-react-router-scroll "^2.0.0-beta.8"
+    gatsby-react-router-scroll "^2.0.0-beta.9"
     glob "^7.1.1"
     graphql "^0.13.2"
     graphql-relay "^0.5.5"
