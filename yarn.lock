@@ -697,6 +697,12 @@
     core-js "^2.5.7"
     regenerator-runtime "^0.12.0"
 
+"@babel/runtime@^7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.0.0.tgz#adeb78fedfc855aa05bc041640f3f6f98e85424c"
+  dependencies:
+    regenerator-runtime "^0.12.0"
+
 "@babel/template@7.0.0-beta.44":
   version "7.0.0-beta.44"
   resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.0.0-beta.44.tgz#f8832f4fdcee5d59bf515e595fc5106c529b394f"
@@ -4177,11 +4183,11 @@ gatsby-plugin-react-helmet@^3.0.0-rc.0:
   dependencies:
     "@babel/runtime" "7.0.0-beta.52"
 
-gatsby-plugin-styled-components@^3.0.0-rc.0:
-  version "3.0.0-rc.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-styled-components/-/gatsby-plugin-styled-components-3.0.0-rc.0.tgz#d7267edfd73c24d2f678f45cce12517a431191ef"
+gatsby-plugin-styled-components@^3.0.0-rc.1:
+  version "3.0.0-rc.1"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-styled-components/-/gatsby-plugin-styled-components-3.0.0-rc.1.tgz#c6f706e31ebaab88c711907e9a14d959086e815e"
   dependencies:
-    "@babel/runtime" "7.0.0-beta.52"
+    "@babel/runtime" "^7.0.0"
 
 gatsby-react-router-scroll@^2.0.0-rc.0:
   version "2.0.0-rc.0"
