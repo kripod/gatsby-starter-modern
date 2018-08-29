@@ -4148,9 +4148,9 @@ gatsby-cli@^2.0.0-rc.0:
     yargs "^11.1.0"
     yurnalist "^0.2.1"
 
-gatsby-link@^2.0.0-rc.0:
-  version "2.0.0-rc.0"
-  resolved "https://registry.yarnpkg.com/gatsby-link/-/gatsby-link-2.0.0-rc.0.tgz#50ac97368dc7e5f1d9a2fc9665945a63243b1b99"
+gatsby-link@^2.0.0-rc.1:
+  version "2.0.0-rc.1"
+  resolved "https://registry.yarnpkg.com/gatsby-link/-/gatsby-link-2.0.0-rc.1.tgz#0400c614976e7256821ad5669ce4310d4c2bf9f5"
   dependencies:
     "@babel/runtime" "7.0.0-beta.52"
     "@reach/router" "^1.1.1"
@@ -4191,9 +4191,9 @@ gatsby-react-router-scroll@^2.0.0-rc.0:
     scroll-behavior "^0.9.9"
     warning "^3.0.0"
 
-gatsby@^2.0.0-rc.0:
-  version "2.0.0-rc.0"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.0.0-rc.0.tgz#16f6160cc458d27702fd4197731c7c88974d9c6a"
+gatsby@^2.0.0-rc.1:
+  version "2.0.0-rc.1"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.0.0-rc.1.tgz#f88cd61fb74c694cbd08491d5d89079cf321b85e"
   dependencies:
     "@babel/code-frame" "7.0.0-beta.52"
     "@babel/core" "7.0.0-beta.52"
@@ -4248,13 +4248,13 @@ gatsby@^2.0.0-rc.0:
     friendly-errors-webpack-plugin "^1.6.1"
     fs-extra "^5.0.0"
     gatsby-cli "^2.0.0-rc.0"
-    gatsby-link "^2.0.0-rc.0"
+    gatsby-link "^2.0.0-rc.1"
     gatsby-plugin-page-creator "^2.0.0-rc.0"
     gatsby-react-router-scroll "^2.0.0-rc.0"
     glob "^7.1.1"
     graphql "^0.13.2"
     graphql-relay "^0.5.5"
-    graphql-skip-limit "^2.0.0-rc.0"
+    graphql-skip-limit "^2.0.0-rc.1"
     graphql-tools "^3.0.4"
     graphql-type-json "^0.2.1"
     hash-mod "^0.0.5"
@@ -4516,9 +4516,9 @@ graphql-request@^1.5.0:
   dependencies:
     cross-fetch "2.2.2"
 
-graphql-skip-limit@^2.0.0-rc.0:
-  version "2.0.0-rc.0"
-  resolved "https://registry.yarnpkg.com/graphql-skip-limit/-/graphql-skip-limit-2.0.0-rc.0.tgz#d2305c7eb74f277fd968bae995be7e4726494585"
+graphql-skip-limit@^2.0.0-rc.1:
+  version "2.0.0-rc.1"
+  resolved "https://registry.yarnpkg.com/graphql-skip-limit/-/graphql-skip-limit-2.0.0-rc.1.tgz#bfe287c44887d82db3e513bb6b62ae6c5f663d07"
   dependencies:
     "@babel/runtime" "7.0.0-beta.52"
 
