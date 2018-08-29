@@ -1520,9 +1520,9 @@ babel-plugin-macros@^2.4.0:
   dependencies:
     cosmiconfig "^5.0.5"
 
-babel-plugin-remove-graphql-queries@^2.0.2-rc.1:
-  version "2.0.2-rc.1"
-  resolved "https://registry.yarnpkg.com/babel-plugin-remove-graphql-queries/-/babel-plugin-remove-graphql-queries-2.0.2-rc.1.tgz#b791f056c47a6aaf3a41039f386ff4858d585307"
+babel-plugin-remove-graphql-queries@^2.0.2-rc.2:
+  version "2.0.2-rc.2"
+  resolved "https://registry.yarnpkg.com/babel-plugin-remove-graphql-queries/-/babel-plugin-remove-graphql-queries-2.0.2-rc.2.tgz#85ae3b8d46ebaa27e128d15321d67acd409d95e2"
 
 babel-plugin-styled-components@^1.5.1:
   version "1.5.1"
@@ -4216,9 +4216,9 @@ gatsby-react-router-scroll@^2.0.0-rc.1:
     scroll-behavior "^0.9.9"
     warning "^3.0.0"
 
-gatsby@^2.0.0-rc.3:
-  version "2.0.0-rc.3"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.0.0-rc.3.tgz#df2cb24fcb5f59273f5f77384d8ac40bfa24ed68"
+gatsby@^2.0.0-rc.4:
+  version "2.0.0-rc.4"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.0.0-rc.4.tgz#1919841e4e040c9af066fe8966c8b8229d54ded0"
   dependencies:
     "@babel/code-frame" "^7.0.0"
     "@babel/core" "^7.0.0"
@@ -4239,7 +4239,7 @@ gatsby@^2.0.0-rc.3:
     babel-plugin-add-module-exports "^0.2.1"
     babel-plugin-dynamic-import-node "^1.2.0"
     babel-plugin-macros "^2.4.0"
-    babel-plugin-remove-graphql-queries "^2.0.2-rc.1"
+    babel-plugin-remove-graphql-queries "^2.0.2-rc.2"
     better-queue "^3.8.6"
     bluebird "^3.5.0"
     chalk "^2.3.2"
