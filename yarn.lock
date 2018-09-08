@@ -7445,9 +7445,9 @@ readdirp@^2.0.0:
     readable-stream "^2.0.2"
     set-immediate-shim "^1.0.1"
 
-rebass@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/rebass/-/rebass-2.1.0.tgz#d154bc9236fc0c6b468c914074afb72e0a5cfdd3"
+rebass@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/rebass/-/rebass-2.1.1.tgz#8b901e5e3c13801046375bb97788c5d8d978a250"
   dependencies:
     chroma-js "^1.3.6"
     grid-styled "^4.2.0"
