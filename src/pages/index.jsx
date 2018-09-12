@@ -1,16 +1,17 @@
 import { Link as GatsbyLink } from 'gatsby';
 import React from 'react';
-import { Container, Heading, Link, Text } from 'rebass';
+import { Heading, Link, Text } from 'rebass';
+import Container from '../components/Container';
 import Layout from '../components/Layout';
 
 const IndexPage = () => (
   <Layout>
     <Container>
       <Heading my={3}>Hi people</Heading>
-      <Text is="p">Welcome to your new Gatsby site.</Text>
-      <Text is="p">Now go build something great.</Text>
-      <Text is="p" my={3}>
-        <Link is={GatsbyLink} to="/page-2/">
+      <Text as="p">Welcome to your new Gatsby site.</Text>
+      <Text as="p">Now go build something great.</Text>
+      <Text as="p" my={3}>
+        <Link as={GatsbyLink} to="/page-2/">
           Go to page 2
         </Link>
       </Text>

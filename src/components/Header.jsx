@@ -1,14 +1,15 @@
 import { Link as GatsbyLink } from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
-import { Box, Container, NavLink } from 'rebass';
+import { Box, Link } from 'rebass';
+import Container from './Container';
 
 const Header = ({ brand, ...props }) => (
-  <Box is="header" color="white" bg="rebeccapurple" {...props}>
+  <Box as="header" color="white" bg="rebeccapurple" {...props}>
     <Container>
-      <NavLink is={GatsbyLink} to="/" px={0} my={3}>
+      <Link as={GatsbyLink} to="/" px={0} my={3}>
         {brand}
-      </NavLink>
+      </Link>
     </Container>
   </Box>
 );

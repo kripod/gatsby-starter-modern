@@ -1,9 +1,10 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import { Box, Container } from 'rebass';
+import { Box } from 'rebass';
+import Container from './Container';
 
 const Footer = ({ children, ...props }) => (
-  <Box is="footer" py={4} bg="gray" {...props}>
+  <Box as="footer" py={4} bg="lightgray" {...props}>
     <Container>{children}</Container>
   </Box>
 );

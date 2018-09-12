@@ -16,7 +16,7 @@ A modern Gatsby starter with strict linting and auto-formatting rules.
 
 [Rebass][], a React UI component library & design system, is used for styling components. Based on [styled-components][] and [styled-system][], it provides a delightful way for managing styles.
 
-[rebass]: https://jxnblk.com/rebass/
+[rebass]: https://rebassjs.org/
 [styled-components]: https://www.styled-components.com/
 [styled-system]: https://jxnblk.com/styled-system/
 
