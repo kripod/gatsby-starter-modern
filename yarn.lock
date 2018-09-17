@@ -4226,9 +4226,9 @@ gatsby-plugin-page-creator@^2.0.0-rc.5:
     parse-filepath "^1.0.1"
     slash "^1.0.0"
 
-gatsby-plugin-react-helmet@^3.0.0-rc.1:
-  version "3.0.0-rc.1"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-react-helmet/-/gatsby-plugin-react-helmet-3.0.0-rc.1.tgz#d5118f23ee95298c3cdb0bddeb01311c768ea652"
+gatsby-plugin-react-helmet@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-react-helmet/-/gatsby-plugin-react-helmet-3.0.0.tgz#d833a7f7f65b6d2c5adb2d99095a7bd3882d33cd"
   dependencies:
     "@babel/runtime" "^7.0.0"
 

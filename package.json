@@ -11,7 +11,7 @@
   "dependencies": {
     "babel-plugin-styled-components": "^1.7.1",
     "gatsby": "^2.0.0-rc.28",
-    "gatsby-plugin-react-helmet": "^3.0.0-rc.1",
+    "gatsby-plugin-react-helmet": "^3.0.0",
     "gatsby-plugin-styled-components": "^3.0.0-rc.5",
     "prop-types": "^15.6.2",
     "react": "^16.5.1",
