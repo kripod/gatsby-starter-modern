@@ -12,7 +12,7 @@
     "babel-plugin-styled-components": "^1.8.0",
     "gatsby": "^2.0.52",
     "gatsby-plugin-react-helmet": "^3.0.2",
-    "gatsby-plugin-styled-components": "^3.0.2",
+    "gatsby-plugin-styled-components": "^3.0.3",
     "prop-types": "^15.6.2",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
