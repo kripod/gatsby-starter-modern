@@ -9,7 +9,7 @@
     "lint:style": "stylelint \"src/**/*.{js,jsx}\""
   },
   "dependencies": {
-    "babel-plugin-styled-components": "^1.9.3",
+    "babel-plugin-styled-components": "^1.9.4",
     "gatsby": "^2.0.65",
     "gatsby-plugin-react-helmet": "^3.0.4",
     "gatsby-plugin-styled-components": "^3.0.4",
