@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "babel-plugin-styled-components": "^1.9.4",
-    "gatsby": "^2.0.66",
+    "gatsby": "^2.0.67",
     "gatsby-plugin-react-helmet": "^3.0.4",
     "gatsby-plugin-styled-components": "^3.0.4",
     "prop-types": "^15.6.2",
