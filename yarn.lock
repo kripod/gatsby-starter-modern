@@ -4987,10 +4987,10 @@ gatsby-react-router-scroll@^2.0.2:
     scroll-behavior "^0.9.9"
     warning "^3.0.0"
 
-gatsby@^2.0.79:
-  version "2.0.79"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.0.79.tgz#6ca8a89da5259bc1cd6bfe6e730c7c5a9cd6a03d"
-  integrity sha512-kHeVp6YGwy0BwmLcxo87ZM41Fcy+Zt4rocu94IvYSDI9NGEH8hziJ/zfLSWPkJgNraRfzxc4Lzcdm0aMTTmBCg==
+gatsby@^2.0.80:
+  version "2.0.80"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.0.80.tgz#0b9fd8a18bc332409860d85d691e44314f24c15e"
+  integrity sha512-FP1Gfku9ZEeDPkbYmECirmCBP5nYabt4YZGVbMA6r8gBBLcZy30wWn4AmsUMlydT1yKCf6H7SQkZ3bAOxEYkbA==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     "@babel/core" "^7.0.0"
@@ -5103,7 +5103,7 @@ gatsby@^2.0.79:
     v8-compile-cache "^1.1.0"
     webpack "^4.12.0"
     webpack-dev-middleware "^3.0.1"
-    webpack-dev-server "^3.1.1"
+    webpack-dev-server "^3.1.14"
     webpack-hot-middleware "^2.21.0"
     webpack-merge "^4.1.0"
     webpack-stats-plugin "^0.1.5"
@@ -10909,7 +10909,7 @@ webpack-dev-middleware@^3.0.1:
     url-join "^4.0.0"
     webpack-log "^1.0.1"
 
-webpack-dev-server@^3.1.1:
+webpack-dev-server@^3.1.14:
   version "3.1.14"
   resolved "https://registry.yarnpkg.com/webpack-dev-server/-/webpack-dev-server-3.1.14.tgz#60fb229b997fc5a0a1fc6237421030180959d469"
   integrity sha512-mGXDgz5SlTxcF3hUpfC8hrQ11yhAttuUQWf1Wmb+6zo3x6rb7b9mIfuQvAPLdfDRCGRGvakBWHdHOa0I9p/EVQ==
