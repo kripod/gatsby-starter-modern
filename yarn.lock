@@ -785,10 +785,10 @@
     lodash "^4.17.10"
     to-fast-properties "^2.0.0"
 
-"@gatsbyjs/relay-compiler@2.0.0-printer-fix":
-  version "2.0.0-printer-fix"
-  resolved "https://registry.yarnpkg.com/@gatsbyjs/relay-compiler/-/relay-compiler-2.0.0-printer-fix.tgz#542b3eb8e7f28142ccbde051dfc47c6ce506d022"
-  integrity sha512-oxUgELwerXuQWQhQz+G3xXAP9H4uMgj8aNGmNp0IYKv9D0puvUw+W6884jae57Ng+Vj2K5rxUkn0ApivSTvutQ==
+"@gatsbyjs/relay-compiler@2.0.0-printer-fix.2":
+  version "2.0.0-printer-fix.2"
+  resolved "https://registry.yarnpkg.com/@gatsbyjs/relay-compiler/-/relay-compiler-2.0.0-printer-fix.2.tgz#214db0e6072d40ea78ad5fabdb49d56bc95f4e99"
+  integrity sha512-7GeCCEQ7O15lMTT/SXy9HuRde4cv5vs465ZnLK2QCajSDLior+20yrMqHn1PGsJYK6nNZH7p3lw9qTCpqmuc7Q==
   dependencies:
     "@babel/generator" "^7.0.0"
     "@babel/parser" "^7.0.0"
@@ -4444,10 +4444,10 @@ gatsby-react-router-scroll@^2.0.4:
     scroll-behavior "^0.9.9"
     warning "^3.0.0"
 
-gatsby@^2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.1.1.tgz#abfcd8a843b8be7f29b848b8b62bb9ec33be207b"
-  integrity sha512-0W7WnlpBkz+TQgNDJBVFWDNgl4voN1BbE+oKVOSyKhYgZRcOIdKKWkLxuxF+Cju9iirt9n0YvlglEBCt4XsgOQ==
+gatsby@^2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.1.2.tgz#3233a9dc99d4c7f5a7eeadd94e9a5515b1c8b702"
+  integrity sha512-70kwwQkDwvAUTuf8nFwlHMtRF5Ut3X/PFx/L0AvOCFEHcNqAdDMPd5c6Nz8/zmeRSpY/paLS+ZYtDw/ymr6Mgw==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     "@babel/core" "^7.0.0"
@@ -4455,7 +4455,7 @@ gatsby@^2.1.1:
     "@babel/polyfill" "^7.0.0"
     "@babel/runtime" "^7.0.0"
     "@babel/traverse" "^7.0.0"
-    "@gatsbyjs/relay-compiler" "2.0.0-printer-fix"
+    "@gatsbyjs/relay-compiler" "2.0.0-printer-fix.2"
     "@reach/router" "^1.1.1"
     address "1.0.3"
     autoprefixer "^9.4.3"
