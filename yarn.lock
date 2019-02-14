@@ -785,6 +785,28 @@
     lodash "^4.17.10"
     to-fast-properties "^2.0.0"
 
+"@gatsbyjs/relay-compiler@2.0.0-printer-fix":
+  version "2.0.0-printer-fix"
+  resolved "https://registry.yarnpkg.com/@gatsbyjs/relay-compiler/-/relay-compiler-2.0.0-printer-fix.tgz#542b3eb8e7f28142ccbde051dfc47c6ce506d022"
+  integrity sha512-oxUgELwerXuQWQhQz+G3xXAP9H4uMgj8aNGmNp0IYKv9D0puvUw+W6884jae57Ng+Vj2K5rxUkn0ApivSTvutQ==
+  dependencies:
+    "@babel/generator" "^7.0.0"
+    "@babel/parser" "^7.0.0"
+    "@babel/polyfill" "^7.0.0"
+    "@babel/runtime" "^7.0.0"
+    "@babel/traverse" "^7.0.0"
+    "@babel/types" "^7.0.0"
+    babel-preset-fbjs "^3.1.2"
+    chalk "^2.4.1"
+    fast-glob "^2.2.2"
+    fb-watchman "^2.0.0"
+    fbjs "^1.0.0"
+    immutable "~3.7.6"
+    nullthrows "^1.1.0"
+    relay-runtime "2.0.0"
+    signedsource "^1.0.0"
+    yargs "^9.0.0"
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
@@ -4422,10 +4444,10 @@ gatsby-react-router-scroll@^2.0.4:
     scroll-behavior "^0.9.9"
     warning "^3.0.0"
 
-gatsby@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.1.0.tgz#45813f346cc2b3aac64323cef850d196fb829cb5"
-  integrity sha512-SVjl2rV8pkKrsGR6RjKsrKP4Mo/y2VERk6PNILdPMOMSZiQvbhg0yq1bo8X+wvUNMeKosHH4mz52QMZcEKaoiQ==
+gatsby@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.1.1.tgz#abfcd8a843b8be7f29b848b8b62bb9ec33be207b"
+  integrity sha512-0W7WnlpBkz+TQgNDJBVFWDNgl4voN1BbE+oKVOSyKhYgZRcOIdKKWkLxuxF+Cju9iirt9n0YvlglEBCt4XsgOQ==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     "@babel/core" "^7.0.0"
@@ -4433,6 +4455,7 @@ gatsby@^2.1.0:
     "@babel/polyfill" "^7.0.0"
     "@babel/runtime" "^7.0.0"
     "@babel/traverse" "^7.0.0"
+    "@gatsbyjs/relay-compiler" "2.0.0-printer-fix"
     "@reach/router" "^1.1.1"
     address "1.0.3"
     autoprefixer "^9.4.3"
@@ -4522,7 +4545,6 @@ gatsby@^2.1.0:
     react-error-overlay "^3.0.0"
     react-hot-loader "^4.6.2"
     redux "^4.0.0"
-    relay-compiler "2.0.0"
     request "^2.85.0"
     semver "^5.6.0"
     shallow-compare "^1.2.2"
@@ -8460,28 +8482,6 @@ regjsparser@^0.3.0:
   integrity sha512-zza72oZBBHzt64G7DxdqrOo/30bhHkwMUoT0WqfGu98XLd7N+1tsy5MJ96Bk4MD0y74n629RhmrGW6XlnLLwCA==
   dependencies:
     jsesc "~0.5.0"
-
-relay-compiler@2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/relay-compiler/-/relay-compiler-2.0.0.tgz#f51b8e4fdf337b24ceb45cb7f80dac2729ab132a"
-  integrity sha512-OcWHdFJAp9++8xhES5rZMDolB2USKn940bc/jDMYrMyHtVM+FnvlZaXDSvXpOjlzPeucpDYPiqFlx+/UQoGF2g==
-  dependencies:
-    "@babel/generator" "^7.0.0"
-    "@babel/parser" "^7.0.0"
-    "@babel/polyfill" "^7.0.0"
-    "@babel/runtime" "^7.0.0"
-    "@babel/traverse" "^7.0.0"
-    "@babel/types" "^7.0.0"
-    babel-preset-fbjs "^3.1.2"
-    chalk "^2.4.1"
-    fast-glob "^2.2.2"
-    fb-watchman "^2.0.0"
-    fbjs "^1.0.0"
-    immutable "~3.7.6"
-    nullthrows "^1.1.0"
-    relay-runtime "2.0.0"
-    signedsource "^1.0.0"
-    yargs "^9.0.0"
 
 relay-runtime@2.0.0:
   version "2.0.0"
