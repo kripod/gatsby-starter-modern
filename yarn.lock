@@ -1088,6 +1088,11 @@
   dependencies:
     styled-system "^3.1.0"
 
+"@stefanprobst/lokijs@^1.5.6-b":
+  version "1.5.6-b"
+  resolved "https://registry.yarnpkg.com/@stefanprobst/lokijs/-/lokijs-1.5.6-b.tgz#6a36a86dbe132e702e6b15ffd3ce4139aebfe942"
+  integrity sha512-MNodHp46og+Sdde/LCxTLrxcD5Dimu21R/Fer2raXMG1XtHSV2+vZnkIV87OPAxuf2NiDj1W5hN7Q2MYUfQQ8w==
+
 "@types/configstore@^2.1.1":
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/@types/configstore/-/configstore-2.1.1.tgz#cd1e8553633ad3185c3f2f239ecff5d2643e92b6"
@@ -4644,10 +4649,10 @@ gatsby-telemetry@^1.0.4:
     stack-utils "1.0.2"
     uuid "3.3.2"
 
-gatsby@^2.3.8:
-  version "2.3.8"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.3.8.tgz#17a356173c5c9f8dfd44b8b7449aed120eb482c0"
-  integrity sha512-vCfOnnhDnb0ALlttrlivsPkpBeujE4BpOUeuml0undntVRMhK7Yx4tRvv4ILAH6i7ORUhQnoWqLh+DDjqBLlmw==
+gatsby@^2.3.9:
+  version "2.3.9"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.3.9.tgz#72dadd66282697eacd02ee2a4b81d2ef5243e17f"
+  integrity sha512-FyPqMTvDfa29aaeqfHp0Oyhh9f5HfanVJRsyNdPWwbOqlPqqyOumrMu4XvwLuq4JLv/hMxrUSnEGRHl5/zhN2g==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     "@babel/core" "^7.0.0"
@@ -4659,6 +4664,7 @@ gatsby@^2.3.8:
     "@mikaelkristiansson/domready" "^1.0.9"
     "@pieh/friendly-errors-webpack-plugin" "1.7.0-chalk-2"
     "@reach/router" "^1.1.1"
+    "@stefanprobst/lokijs" "^1.5.6-b"
     address "1.0.3"
     autoprefixer "^9.4.3"
     babel-core "7.0.0-bridge.0"
@@ -4725,7 +4731,6 @@ gatsby@^2.3.8:
     json-stringify-safe "^5.0.1"
     kebab-hash "^0.1.2"
     lodash "^4.17.10"
-    lokijs "^1.5.6"
     md5 "^2.2.1"
     md5-file "^3.1.1"
     mime "^2.2.0"
@@ -4763,6 +4768,7 @@ gatsby@^2.3.8:
     "true-case-path" "^1.0.3"
     type-of "^2.0.1"
     url-loader "^1.0.1"
+    util.promisify "^1.0.0"
     uuid "^3.1.0"
     v8-compile-cache "^1.1.0"
     webpack "~4.28.4"
@@ -6334,11 +6340,6 @@ loglevelnext@^1.0.1:
   dependencies:
     es6-symbol "^3.1.1"
     object.assign "^4.1.0"
-
-lokijs@^1.5.6:
-  version "1.5.6"
-  resolved "https://registry.yarnpkg.com/lokijs/-/lokijs-1.5.6.tgz#6de6b8c3ff7a972fd0104169f81e7ddc244c029f"
-  integrity sha512-xJoDXy8TASTjmXMKr4F8vvNUCu4dqlwY5gmn0g5BajGt1GM3goDCafNiGAh/sfrWgkfWu1J4OfsxWm8yrWweJA==
 
 longest-streak@^2.0.1:
   version "2.0.2"
