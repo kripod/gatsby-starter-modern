@@ -1,3 +1,7 @@
+> ## ⚠️ _DEPRECATED_
+>
+> _This project has been superseded by [gatsby-starter-strict](https://github.com/kripod/gatsby-starter-strict)._
+
 # ⚛️ gatsby-starter-modern
 
 A modern Gatsby starter with strict linting and auto-formatting rules.
